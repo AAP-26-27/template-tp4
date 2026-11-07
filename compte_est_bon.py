@@ -22,17 +22,17 @@ if __name__ == "__main__":
     print(f"Recherche de {nombre} avec {cartons}")
     
     debut = time.perf_counter()
-    parcoursDFS(cartons, nombre)
+    parcours_DFS(cartons, nombre)
     fin = time.perf_counter()
     print(f"DFS : {fin - debut:.6f} s")
 
     debut = time.perf_counter()
-    parcoursDFSRecursif2(cartons, nombre)
+    parcours_DFS_recursif(cartons, nombre)
     fin = time.perf_counter()
     print(f"DFS récursif : {fin - debut:.6f} s")
 
     debut = time.perf_counter()
-    parcoursBFS(cartons, nombre)
+    parcours_BFS(cartons, nombre)
     fin = time.perf_counter()
     print(f"BFS : {fin - debut:.6f} s")
 

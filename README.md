@@ -49,9 +49,9 @@ Le répertoire du dépôt contient les fichiers nécessaires à la réalisation 
 ## Exercice 2 : Résolution du problème du compte est bon 
 
 Les fonctions de parcours à implémenter se trouvent dans le fichier `recherche_compte_est_bon.py`. Ce fichier contient 3 fonctions de parcours de l'arbre de calculs à la volée : 
-    - `parcoursDFS(cartons, cible)` : réalise un parcours itératif en profondeur d'abord
-    - `parcoursBFS(cartons, cible)` : réalise un parcours itératif en largeur d'abord
-    - `parcoursDFSRecursif(choisis, restants, cible)` : réalise un parcours récursif en profondeur d'abord
+    - `parcours_DFS(cartons, cible)` : réalise un parcours itératif en profondeur d'abord
+    - `parcours_BFS(cartons, cible)` : réalise un parcours itératif en largeur d'abord
+    - `parcours_DFS_recursif(choisis, restants, cible)` : réalise un parcours récursif en profondeur d'abord
 
 Chaque fonction doit parcourir l'arbre de calculs à la recherche de la cible à partir des cartons fournis en paramètre. 
 Lors du parcours, chaque fois que la fonction se rapproche de la cible, le calcul correspondant doit être affiché. 
